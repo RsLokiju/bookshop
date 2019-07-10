@@ -1,0 +1,47 @@
+/* *************************************************************
+CSS pour aider a placer les éléments HTML.
+*/
+/* * {
+  background-color: rgba(0,0,0,0.09);
+  border: 1px dashed white;
+} */
+/**
+****************************************************************/
+
+body {
+  padding-top: 56px;
+}
+
+.card-shadow {
+  box-shadow: 8px 8px 12px #aaa;
+}
+
+/* *************************************************************
+CSS pour la partie ASIDE
+
+Animations au survol de la souris
+****************************************************************/
+
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  z-index: 999;
+}
+
+.list-group-item {
+  background-color: green;
+  transition: transform .2s; /* Animation */
+}
+.list-group-item:hover {
+
+  transform: translateX(10px); 
+  z-index: 998;
+}
+
+.card {
+  margin: .4rem;
+}
